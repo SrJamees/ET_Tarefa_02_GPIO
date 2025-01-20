@@ -31,7 +31,7 @@ ET_Tarefa_02_GPIO/
 
 ## Demonstração
 
-Confira a demonstração do funcionamento no YouTube: [Assista à demonstração](https://youtu.be/K5tzPIKYAQI).
+Confira a demonstração do funcionamento no YouTube: [Assista à demonstração](https://youtu.be/aIGiEcEl2bY).
 
 ## Requisitos
 
