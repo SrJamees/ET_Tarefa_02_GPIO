@@ -43,6 +43,12 @@ void inicializacaoLEDs() {
   gpio_set_dir(LED_GREEN, GPIO_OUT);
 }
 
+void acionaLED_R(){
+  gpio_put(LED_RED,true);
+  gpio_put(LED_GREEN,false);
+  gpio_put(LED_BLUE,false);
+}
+
 // Função responsável pela interpretação/identificação e execução dos comandos 
 // Parâmetros: comando - uma string que contém o comando digitado pelo usuário
 void interpretarComando(char comando[50]) {
