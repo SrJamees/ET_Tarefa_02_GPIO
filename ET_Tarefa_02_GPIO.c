@@ -42,10 +42,17 @@ void inicializacaoLEDs() {
   gpio_set_dir(LED_BLUE, GPIO_OUT);
   gpio_set_dir(LED_GREEN, GPIO_OUT);
 }
-
+//Função responsável por acionar o LED Vermelho;
+//sem parametros e sem retorno;
 void acionaLED_R(){
   gpio_put(LED_RED,true);
   gpio_put(LED_GREEN,false);
+  gpio_put(LED_BLUE,false);
+}
+//Função para acionamento do LED Verde
+void acionaLED_G(){
+  gpio_put(LED_RED,false);
+  gpio_put(LED_GREEN,true);
   gpio_put(LED_BLUE,false);
 }
 
