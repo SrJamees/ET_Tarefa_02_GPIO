@@ -34,6 +34,11 @@ void acionaLED_G();
 
 void acionaLED_B();
 
+void inicializacaoBuzzer(){
+    gpio_init(BUZZER);
+    gpio_set_dir(BUZZER,GPIO_OUT);
+}
+
 void acionarTodosLEDs(){
     // DEFINIÇÂO
     // Função responsável por acionar todos os LEDs
