@@ -1,3 +1,16 @@
+/*
+ * Finalidade: Controlar o acionamento dos LEDs e do Buzzer da placa de desenvolvimento BitDogLab por meio de comandos via UART
+ *
+ * Funcionamento: envie os seguintes comandos para controle dos LEDs:
+ * "RED" - para acionar o LED vermelho
+ * "GREEN" - para acionar o LED Verde
+ * "BLUE" - para acionar o LED Azul
+ * "WHITE" - para acionar os três LEDs juntos formando a cor Branca
+ * "OFF" - para desligar todos os LEDs
+ * "BUZZER" - para acionar o Buzzer por 2 segundos
+ */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
