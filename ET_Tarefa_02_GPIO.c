@@ -21,9 +21,29 @@ void acionaLED_G();
 
 void acionaLED_B();
 
-void acionarTodosLEDs();
+void acionarTodosLEDs(){
+    // DEFINIÇÂO
+    // Função responsável por acionar todos os LEDs
 
-void desligaTodosLEDs();
+    // Aciona o LED vermelho
+    gpio_put(LED_RED,true);
+    // Aciona o LED verde
+    gpio_put(LED_GREEN,true);
+    // Aciona o LED azul
+    gpio_put(LED_BLUE,true);
+}
+
+void desligaTodosLEDs(){
+    // DEFINIÇÂO
+    // Função responsável por desligar todos os LEDs
+
+    // Desliga o LED vermelho
+    gpio_put(LED_RED,false);
+    // Desliga o LED verde
+    gpio_put(LED_GREEN,false);
+    // Desliga o LED azul
+    gpio_put(LED_BLUE,false);
+}
 
 void tocaBuzzer();
 
