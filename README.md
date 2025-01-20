@@ -1,6 +1,6 @@
 # Controle GPIO com Raspberry Pi Pico
 
-Este repositório contém um projeto de controle GPIO utilizando o microcontrolador Raspberry Pi Pico, LEDs RGB e um buzzer, desenvolvido como parte da **Atividade 2** no contexto da disciplina de **Sistemas Embarcados**. O objetivo é interpretar comandos enviados via UART para controlar periféricos conectados aos pinos GPIO.
+Este repositório contém um projeto de controle GPIO utilizando o microcontrolador Raspberry Pi Pico, LEDs RGB e um buzzer, desenvolvido como parte da **Atividade 2** no contexto da residência **Embarcatech**. O objetivo é interpretar comandos enviados via UART para controlar periféricos conectados aos pinos GPIO em uma placa da *BitDogLab*.
 
 ## Estrutura do Repositório
 
@@ -35,7 +35,7 @@ Confira a demonstração do funcionamento no YouTube: [Assista à demonstração
 
 ## Requisitos
 
-- Ferramenta educacional **BitDogLab** (versão 6.3).
+- Ferramenta educacional **BitDogLab**.
 - Ambiente de desenvolvimento **VS Code**.
 - Kit de Desenvolvimento de Software **Pico SDK**.
 - Simulador **Wokwi** configurado no VS Code.
@@ -110,6 +110,6 @@ Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` p
     - André Lima
     - Cláudio
     - David
-    - Edcarllos (líder)
-    - James
+    - Edcarllos
+    - James (líder)
     - Tiago
